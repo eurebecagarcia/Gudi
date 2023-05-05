@@ -11,10 +11,8 @@ export default function Header() {
   useEffect(() => {
     if (window.innerWidth <= 500) {
       setIsMobile(true);
-      console.log("mobile", isMobile);
     } else {
       setIsMobile(false);
-      console.log("mobile", isMobile);
     }
   });
 
