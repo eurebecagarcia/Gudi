@@ -66,3 +66,29 @@ section {
   left: -55px;
   top: -10px;
 }
+
+@media (max-width: 500px) {
+  section {
+    flex-direction: column !important;
+    height: auto;
+  }
+
+  .box-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .box-text {
+    width: 100%;
+    height: auto;
+    margin-top: -4px;
+
+    div {
+      width: 100%;
+      padding: 15px 20px;
+    }
+    h2 {
+      width: 100%;
+    }
+  }
+}

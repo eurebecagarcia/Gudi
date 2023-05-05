@@ -7,7 +7,11 @@ export default function Banner() {
     <div className="imageBanner">
       <div className="elementBanner">
         <h1>Para qual estado você deseja ir?</h1>
-        <Input type="text" placeholder="Pesquisar" />
+        <Input
+          type="text"
+          placeholder="Pesquisar"
+          inputWidth={window.innerWidth <= 500 ? "80%" : ""}
+        />
         <Button text="buscar" />
       </div>
     </div>
