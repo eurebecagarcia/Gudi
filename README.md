@@ -25,7 +25,7 @@ $ yarn install ou npm install
 # Execute a aplicação
 $ npm run dev
 
-# A aplicação iniciará na porta nesse endereço - acesse <http://127.0.0.1:5174/Gudi>
+# A aplicação iniciará nesse endereço - acesse <http://127.0.0.1:5174/Gudi>
 ```
 
 ### 🛠 Tecnologias
