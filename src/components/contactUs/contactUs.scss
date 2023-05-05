@@ -1,0 +1,44 @@
+.container-contactUs {
+  width: 100%;
+  height: auto;
+  background: var(--main-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 0;
+  padding-bottom: 90px;
+
+  h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    margin: 20px;
+  }
+
+  input {
+    margin: 5px;
+  }
+  input::placeholder {
+    color: var(--light-gray);
+  }
+
+  textarea {
+    width: 25rem;
+    height: 70px;
+    resize: none;
+    border-radius: 15px;
+    margin: 5px 0 15px 0;
+    padding: 12px;
+    border: none;
+  }
+  textarea::placeholder {
+    color: var(--light-gray);
+  }
+}
+
+.box-to-write {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
