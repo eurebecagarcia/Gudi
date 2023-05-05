@@ -27,15 +27,19 @@ img {
 }
 
 @media (max-width: 500px) {
-  .menu {
+  .menu-mobile {
+    background-color: red;
     width: 100%;
     height: 100vh;
     background-color: #fff;
     position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 0;
     left: 0;
-
     ul {
+      list-style: none;
       width: 100%;
       flex-direction: column;
       align-items: center;
