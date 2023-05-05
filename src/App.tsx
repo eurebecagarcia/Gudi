@@ -14,7 +14,7 @@ import ContactUs from "./components/contactUs";
 
 export default function App() {
   return (
-    <div>
+    <>
       <Header />
       <Banner />
       <NationalTrips
@@ -63,6 +63,6 @@ export default function App() {
       <OurWall />
       <ContactUs />
       <Footer />
-    </div>
+    </>
   );
 }

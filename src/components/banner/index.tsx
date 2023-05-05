@@ -10,7 +10,7 @@ export default function Banner() {
         <Input
           type="text"
           placeholder="Pesquisar"
-          inputWidth={window.innerWidth <= 500 ? "80%" : ""}
+          inputWidth={window.innerWidth <= 500 ? "60%" : ""}
         />
         <Button text="buscar" />
       </div>

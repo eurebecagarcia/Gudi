@@ -79,7 +79,7 @@ section {
   }
 
   .box-text {
-    width: 100%;
+    width: 100% !important;
     height: auto;
     margin-top: -4px;
 
@@ -89,6 +89,31 @@ section {
     }
     h2 {
       width: 100%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .box-text {
+    width: 50%;
+    height: auto;
+    // margin-top: -4px;
+
+    div {
+      width: 100%;
+      padding: 15px 20px;
+    }
+    h2 {
+      width: 100%;
+      font-size: 30px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .box-text {
+    h2 {
+      font-size: 30px;
     }
   }
 }

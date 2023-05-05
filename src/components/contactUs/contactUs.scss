@@ -42,3 +42,18 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 410px) {
+  .container-contactUs {
+    h2 {
+      font-size: 35px;
+      text-align: center;
+    }
+    input {
+      width: 70%;
+    }
+    textarea {
+      width: 70%;
+    }
+  }
+}

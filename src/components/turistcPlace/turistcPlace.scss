@@ -97,3 +97,27 @@
     font-weight: 300;
   }
 }
+
+@media (max-width: 500px) {
+  .container-places {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .rio-de-janeiro {
+    width: 50%;
+    height: 200px;
+  }
+  .rio-das-ostras {
+    width: 50%;
+    height: 200px;
+  }
+  .caldas-novas {
+    width: 50%;
+    height: 200px;
+  }
+  .amazonia {
+    width: 50%;
+    height: 200px;
+  }
+}
